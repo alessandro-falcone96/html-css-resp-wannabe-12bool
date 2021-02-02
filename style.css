@@ -42,3 +42,14 @@ h3{
 .perchè-cademi{
   margin-bottom: 30px;
 }
+
+
+@media screen and (max-width: 767px) {
+  .informazioni{
+    display: none;
+    margin-bottom: 20px;
+  }
+  img:hover + .informazioni{
+    display: block;
+  }
+}
